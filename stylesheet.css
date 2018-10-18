@@ -1,0 +1,21 @@
+body
+{
+    background-color:rgb(127, 127, 127);
+    text-decoration-color: black;
+
+}
+h1
+{
+    text-decoration: bold;
+}
+#phone
+{
+    background-color:rgb(255,255,255);
+    position: absolute;
+    width: 60%;
+    right: 15%;
+    left: 15%;
+    height: 50%;
+    border: 3px solid rgb(6, 4, 100);
+    padding: 15px;
+}
