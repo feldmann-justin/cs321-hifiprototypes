@@ -87,6 +87,44 @@ h1
     overflow: hidden;
 }
 
+.camera-snap {
+
+    height: 200%;
+    width: 20%;
+    margin: 2%;
+    padding: 1%;
+    border: 5px solid green;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+#first-row {
+
+    height: 100%;
+    width: 100%;
+    margin: 0 5% 5% 5%;
+
+}
+
+#second-row {
+
+    height: 100%;
+    width: 100%;
+    margin: 12% 5% 10% 5%;
+
+}
+
+#third-row {
+
+    height: 100%;
+    width: 100%;
+    margin: 12% 5% 15% 5%;
+
+}
+
+/* The following code for 'cameralogbtn' was generated from https://www.bestcssbuttongenerator.com/#/17 */
+
 .cameralogbtn {
 	-moz-box-shadow: 3px 4px 0px 0px #899599;
 	-webkit-box-shadow: 3px 4px 0px 0px #899599;
