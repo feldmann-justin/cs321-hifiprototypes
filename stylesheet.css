@@ -92,15 +92,24 @@ h1
     height: 200%;
     width: 20%;
     margin: 2%;
-    padding: 1%;
+    /* padding: 1%; */
     border: 5px solid green;
     border-radius: 5px;
     display: inline-block;
+    overflow: hidden;
+
+}
+
+.cam-thumbnail {
+
+    max-width: 100%;
+    min-height: 100%;
 
 }
 
 #first-row {
 
+    padding-left: 5%;
     height: 100%;
     width: 100%;
     margin: 0 5% 5% 5%;
@@ -109,6 +118,7 @@ h1
 
 #second-row {
 
+    padding-left: 5%;
     height: 100%;
     width: 100%;
     margin: 12% 5% 10% 5%;
@@ -117,6 +127,7 @@ h1
 
 #third-row {
 
+    padding-left: 5%;
     height: 100%;
     width: 100%;
     margin: 12% 5% 15% 5%;
