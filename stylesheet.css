@@ -87,6 +87,19 @@ h1
     overflow: hidden;
 }
 
+#cameralogs-pagelabel {
+
+    position: relative;
+    bottom: 30%;
+    text-align: top;
+    display: inline;
+    font-family: "Arial Black";
+    color: white;
+    font-size: 2vw;
+    padding: 28%;
+
+}
+
 .camera-snap {
 
     height: 200%;
@@ -104,6 +117,60 @@ h1
 
     max-width: 100%;
     min-height: 100%;
+
+}
+
+.firstrow-timestamp {
+
+    position: absolute;
+    /* bottom: -251%; */
+    display: block;
+    background-color: blue;
+    opacity: 0.5;
+    /* padding-bottom: 2%; */
+    min-width: 20%;
+    min-height: 25%;
+    top: 325%;
+    text-align: center;
+    font-size: 0.5vw;
+    font-family: 'Arial Black';
+    color: white;
+
+}
+
+.secondrow-timestamp {
+
+    position: absolute;
+    /* bottom: -251%; */
+    display: block;
+    background-color: blue;
+    opacity: 0.5;
+    /* padding-bottom: 2%; */
+    min-width: 20%;
+    min-height: 25%;
+    top: 608%;
+    text-align: center;
+    font-size: 0.5vw;
+    font-family: 'Arial Black';
+    color: white;
+
+}
+
+.thirdrow-timestamp {
+
+    position: absolute;
+    /* bottom: -251%; */
+    display: block;
+    background-color: blue;
+    opacity: 0.5;
+    /* padding-bottom: 2%; */
+    min-width: 20%;
+    min-height: 25%;
+    top: 888%;
+    text-align: center;
+    font-size: 0.5vw;
+    font-family: 'Arial Black';
+    color: white;
 
 }
 
@@ -155,8 +222,8 @@ h1
 	display:inline-block;
 	cursor:pointer;
 	color:#3a8a9e;
-	font-family:Arial;
-	font-size:17px;
+	font-family: "Arial Black";
+	font-size: 1vw;
 	padding:7px 25px;
 	text-decoration:none;
     text-shadow:0px 1px 0px #e1e2ed;
