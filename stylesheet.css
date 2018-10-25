@@ -327,7 +327,8 @@ a.menu{
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:20%;
+    /* height:20%; */
+    height: 14.3%;
     width: 50%;
     top: 0%;
     background-color:rgb(90, 90, 90);
@@ -335,7 +336,9 @@ a.menu{
     z-index:3;
     line-height: 8rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-family: 'Arial Black';
+    color: white;
 }
 #menu_box_2
 {
@@ -343,7 +346,7 @@ a.menu{
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:20%;
+    height:14.3%;
     width: 50%;
     left:50%;
     top: 0%;
@@ -352,7 +355,9 @@ a.menu{
     z-index:3;
     line-height: 8rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-family: 'Arial Black';
+    color: white;
 }
 #menu_box_3
 {
@@ -360,15 +365,17 @@ a.menu{
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:20%;
+    height:14.3%;
     width: 50%;
-    top: 20%;
+    top: 14.3%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
     line-height: 8rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-family: "Arial Black";
+    color: white;
 }
 #menu_box_4
 {
@@ -376,16 +383,18 @@ a.menu{
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:20%;
+    height:14.3%;
     width: 50%;
     left:50%;
-    top: 20%;
+    top: 14.3%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
     line-height: 8rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 1.5rem;
+    font-family: "Arial Black";
+    color: white;
 }
 #menu_box_5
 {
@@ -393,15 +402,17 @@ a.menu{
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:20%;
+    height:14.3%;
     width: 50%;
-    top: 40%;
+    top: 28.6%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
     line-height: 8rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-family: "Arial Black";
+    color: white;
 }
 #menu_box_6
 {
@@ -409,32 +420,37 @@ a.menu{
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:20%;
+    height:14.3%;
     width: 50%;
     left:50%;
-    top: 40%;
+    top: 28.6%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
     line-height: 8rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-family: "Arial Black";
+    color: white;
 }
 #menu_box_7
 {
     border: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
     padding:1%;
+    margin-bottom: 1%;
     position: absolute;
-    height:20%;
+    height:14.3%;
     width: 50%;
-    top: 60%;
+    top: 42.9%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
     line-height: 8rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-family: "Arial Black";
+    color: white;
 }
 #menu_box_8
 {
@@ -442,16 +458,37 @@ a.menu{
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:20%;
+    height:14.3%;
     width: 50%;
     left:50%;
-    top: 60%;
+    top: 42.9%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
     line-height: 8rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-family: "Arial Black";
+    color: white;
+}
+
+#menu_box_9
+{
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    padding:1%;
+    position: absolute;
+    height:14.3%;
+    width: 50%;
+    top: 57.2%;
+    background-color:rgb(90, 90, 90);
+    opacity: 1;
+    z-index:3;
+    line-height: 8rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Arial Black";
+    color: white;
 }
 #menu_box_10
 {
@@ -459,30 +496,90 @@ a.menu{
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:20%;
+    height:14.3%;
     width: 50%;
-    top: 80%;
+    left:50%;
+    top: 57.2%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
     line-height: 8rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-family: "Arial Black";
+    color: white;
 }
-#menu_box_9
+#menu_box_11
 {
     border: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:20%;
+    height:14.3%;
     width: 50%;
-    left:50%;
-    top: 80%;
+    top: 71.5%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
     line-height: 8rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-family: "Arial Black";
+    color: white;
+}
+#menu_box_12
+{
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    padding:1%;
+    position: absolute;
+    height:14.3%;
+    width: 50%;
+    left:50%;
+    top: 71.5%;
+    background-color:rgb(90, 90, 90);
+    opacity: 1;
+    z-index:3;
+    line-height: 8rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Arial Black";
+    color: white;
+}
+#menu_box_13
+{
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    padding:1%;
+    position: absolute;
+    height:14.3%;
+    width: 50%;
+    top: 85.8%;
+    background-color:rgb(90, 90, 90);
+    opacity: 1;
+    z-index:3;
+    line-height: 8rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Arial Black";
+    color: white;
+}
+#menu_box_14
+{
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    padding:1%;
+    position: absolute;
+    height:14.3%;
+    width: 50%;
+    left: 50%;
+    top: 85.8%;
+    background-color:rgb(90, 90, 90);
+    opacity: 1;
+    z-index:3;
+    line-height: 8rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Arial Black";
+    color: white;
 }
