@@ -11,6 +11,9 @@ h1
 {
     text-decoration: bold;
 }
+a{
+    color: black;
+}
 a.menu{
     color: #101010;
     text-shadow:-1px -1px #909090;
@@ -340,7 +343,6 @@ a.menu{
 #home_left
 {
     box-sizing: border-box;
-    padding: 1%;
     position: absolute;
     width: 50.5%;
     left: -3px;
@@ -350,10 +352,24 @@ a.menu{
     border: 3px solid rgb(6, 4, 100);
     border-top: 3px solid rgb(6, 4, 100);
     border-bottom: 3px solid rgb(6, 4, 100);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
 }
-#home_right{
+#radio_main
+{
     box-sizing: border-box;
-    padding: 1%;
+    position: absolute;
+    right: -3px;
+    height: 55%;
+    top: 10%;
+    bottom: 10%;
+    text-align: center;
+    width:100%;
+}
+#home_right
+{
+    box-sizing: border-box;
     position: absolute;
     width: 50.5%;
     right: -3px;
@@ -363,10 +379,11 @@ a.menu{
     border-top: 3px solid rgb(6, 4, 100);
     border-bottom: 3px solid rgb(6, 4, 100);
     border-left: 3px solid rgb(6, 4, 100);
+    text-align: center;
 }
-#home_top{
+#menu
+{
     background-color:rgb(127,127,127);
-
     box-sizing: border-box;
     position: absolute;
     width:100%;
@@ -376,11 +393,22 @@ a.menu{
 }
 #home_bottom{
     box-sizing: border-box;
-    padding:1%;
     position: absolute;
     height:35%;
     bottom: 0%;
     width:100%;
+    left:0%;
+    padding-top: 2%;
+    padding-left:2%;
+}
+#customizeBar{
+    box-sizing: border-box;
+    position: absolute;
+    left:25%;
+    bottom: -4.3%;
+    width:100%;
+    z-index: 3;
+    margin:auto;
 }
 #menu_button
 {
@@ -393,6 +421,26 @@ a.menu{
     background-color:rgb(110, 110, 110);
     opacity: 1;
     z-index:2;
+}
+#homeMenu
+{
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    padding:1%;
+    position: absolute;
+    /* height:20%; */
+    height: 100%;
+    width: 50%;
+    top: 0%;
+    background-color:rgb(90, 90, 90);
+    opacity: 1;
+    z-index:3;
+    line-height: 5rem;
+    vertical-align: center;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Arial Black';
+    right: 0%;
 }
 #menu_box_1
 {
@@ -407,11 +455,11 @@ a.menu{
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
-    line-height: 8rem;
+    line-height: 5rem;
+    vertical-align: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Arial Black';
-    color: white;
 }
 #menu_box_2
 {
@@ -426,11 +474,11 @@ a.menu{
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
-    line-height: 8rem;
+    line-height: 5rem;
+    vertical-align: center;
     text-align: center;
     font-size: 2rem;
     font-family: 'Arial Black';
-    color: white;
 }
 #menu_box_3
 {
@@ -444,17 +492,16 @@ a.menu{
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
-    line-height: 8rem;
+    line-height: 5rem;
+    vertical-align: center;
     text-align: center;
     font-size: 2rem;
     font-family: "Arial Black";
-    color: white;
 }
 #menu_box_4
 {
     border: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
-    padding:1%;
     position: absolute;
     height:14.3%;
     width: 50%;
@@ -463,11 +510,11 @@ a.menu{
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
-    line-height: 8rem;
+    line-height: 3rem;
+    vertical-align: center;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: "Arial Black";
-    color: white;
 }
 #menu_box_5
 {
@@ -481,11 +528,11 @@ a.menu{
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
-    line-height: 8rem;
+    line-height: 5rem;
+    vertical-align: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: "Arial Black";
-    color: white;
 }
 #menu_box_6
 {
@@ -500,11 +547,11 @@ a.menu{
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
-    line-height: 8rem;
+    line-height: 5rem;
+    vertical-align: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
     font-family: "Arial Black";
-    color: white;
 }
 #menu_box_7
 {
@@ -519,11 +566,11 @@ a.menu{
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
-    line-height: 8rem;
+    line-height: 5rem;
+    vertical-align: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: "Arial Black";
-    color: white;
 }
 #menu_box_8
 {
@@ -538,11 +585,11 @@ a.menu{
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
-    line-height: 8rem;
+    line-height: 5rem;
+    vertical-align: center;
     text-align: center;
     font-size: 2rem;
     font-family: "Arial Black";
-    color: white;
 }
 
 #menu_box_9
@@ -557,11 +604,11 @@ a.menu{
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
-    line-height: 8rem;
+    line-height: 5rem;
+    vertical-align: center;
     text-align: center;
     font-size: 2rem;
     font-family: "Arial Black";
-    color: white;
 }
 #menu_box_10
 {
@@ -576,11 +623,11 @@ a.menu{
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
-    line-height: 8rem;
+    line-height: 5rem;
+    vertical-align: center;
     text-align: center;
     font-size: 2rem;
     font-family: "Arial Black";
-    color: white;
 }
 #menu_box_11
 {
@@ -594,17 +641,16 @@ a.menu{
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
-    line-height: 8rem;
+    line-height: 5rem;
+    vertical-align: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: "Arial Black";
-    color: white;
 }
 #menu_box_12
 {
     border: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
-    padding:1%;
     position: absolute;
     height:14.3%;
     width: 50%;
@@ -613,11 +659,11 @@ a.menu{
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
-    line-height: 8rem;
+    line-height: 3rem;
+    vertical-align: center;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: "Arial Black";
-    color: white;
 }
 #menu_box_13
 {
@@ -631,11 +677,11 @@ a.menu{
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
-    line-height: 8rem;
+    line-height: 5rem;
+    vertical-align: center;
     text-align: center;
     font-size: 2rem;
     font-family: "Arial Black";
-    color: white;
 }
 #menu_box_14
 {
@@ -650,9 +696,9 @@ a.menu{
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
-    line-height: 8rem;
+    line-height: 5rem;
+    vertical-align: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: "Arial Black";
-    color: white;
 }
