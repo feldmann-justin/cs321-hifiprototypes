@@ -133,6 +133,26 @@ a.menu{
     font-family: 'Arial Black';
     right: 0%;
 }
+#Nav
+{
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    padding:1%;
+    position: absolute;
+    /* height:20%; */
+    height: 100%;
+    width: 42%;
+    right:50%;
+    top: 0%;
+    background-color:rgb(90, 90, 90);
+    opacity: 1;
+    z-index:3;
+    line-height: 5rem;
+    vertical-align: center;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Arial Black';
+}
 #menu_box_1
 {
     border: 1px solid rgb(0, 0, 0);
