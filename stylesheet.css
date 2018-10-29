@@ -62,6 +62,17 @@ a.menu{
 
 }
 
+#detect-square {
+
+    border: 3px solid lightgreen;
+    opacity: 1.0;
+    position: absolute;
+    top: 20%;
+    right: 25%;
+    padding: 10%;
+
+}
+
 .cameraview {
 
     border: 5px solid black;
@@ -109,7 +120,7 @@ a.menu{
     overflow: hidden;
 }
 
-#cameralogs-pagelabel {
+#pagelabel {
 
     position: relative;
     bottom: 30%;
