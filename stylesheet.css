@@ -800,6 +800,14 @@ p.newDriver{
     font-size:300%;
     font-family: "Arial Black";
 }
+p.trafficSubTitle{
+    font-size:200%;
+    font-family: "Arial Black";
+}
+p.trafficTitle{
+    font-size:350%;
+    font-family: "Arial Black";
+}
 #dotw
 {
     position: absolute;
