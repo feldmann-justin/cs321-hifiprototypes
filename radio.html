@@ -23,12 +23,36 @@
                     </div>
             </div>
             <div id="radio_main">
-                <img src="image/radio.png" width="70%" style="padding-right:1.5%";>
-                <img src="image/presets.png" width="70%" style="padding-right:1.5%";>
+                <img src="image/radio.png" width="70%" style="position:absolute; top:60%;padding-right:1.5%;left:8%;";>
+                <img src="image/presets.png" width="70%" style="position:absolute; left:8%;
+                                                                padding-right:1.5%;">
+                <img src="image/volumeRadio.png" height="100%" style="position:absolute;right:2%;">
                 
             </div>
-            <div id="home_bottom" >
-                <img src="image/volume.png" width="90%" style="padding-right:1.5%; margin-left: 5%;">
+            <div id="home_bottom" style="line-height: 2rem;
+                                        vertical-align: center;
+                                        text-align: left;
+                                        font-size: 3rem;
+                                        font-family: 'Arial Black';">
+                    <h2>Source</h2>
+                    <div style="line-height: 1rem;
+                    vertical-align: center;
+                    text-align: center;
+                    font-size: 3rem;
+                    font-family: 'Arial Black';">
+                            <input type="radio" id="radio"
+                                   name="drone" value="radio" checked style="height:2rem;"/>
+                            <label for="radio">Radio</label>
+
+                            <input type="radio" id="aux"
+                                   name="drone" value="aux" style="height:2rem;"/>
+                            <label for="aux">Aux</label>
+
+                            <input type="radio" id="CD"
+                                   name="drone" value="CD" style="height:2rem;"/>
+                            <label for="cd">CD</label>
+                        </div>
+                        <img src="image/cd.jpg" height="50%" style="position:absolute; right:2%;top:20%;right:10%;">
             </div>
         </div>
     </body>

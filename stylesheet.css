@@ -41,6 +41,7 @@ a.href {
     top:10.4%;
     border: 3px solid rgb(6, 4, 100);
     padding: 15px;
+    z-index:-1;
 }
 
 #phone-camera {
@@ -449,7 +450,7 @@ a.href {
     border: 3px solid rgb(6, 4, 100);
     box-sizing: border-box;
     position: absolute;
-    height:85%;
+    height:65%;
     width: 45%;
     top: 10%;
     background-color:rgb(110, 110, 110);
@@ -503,7 +504,7 @@ a.href {
     padding:1%;
     position: absolute;
     /* height:20%; */
-    height: 14.3%;
+    height: 20%;
     width: 50%;
     top: 0%;
     background-color:rgb(90, 90, 90);
@@ -521,7 +522,7 @@ a.href {
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:14.3%;
+    height:20%;
     width: 50%;
     left:50%;
     top: 0%;
@@ -540,9 +541,9 @@ a.href {
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:14.3%;
+    height:20%;
     width: 50%;
-    top: 14.3%;
+    top: 20%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
@@ -557,17 +558,17 @@ a.href {
     border: 1px solid rgb(0, 0, 0);
     box-sizing: border-box;
     position: absolute;
-    height:14.3%;
+    height:20%;
     width: 50%;
     left:50%;
-    top: 14.3%;
+    top: 20%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
-    line-height: 3rem;
+    line-height: 5rem;
     vertical-align: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: "Arial Black";
 }
 #menu_box_5
@@ -576,9 +577,9 @@ a.href {
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:14.3%;
+    height:20%;
     width: 50%;
-    top: 28.6%;
+    top: 40%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
@@ -594,17 +595,17 @@ a.href {
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:14.3%;
+    height:20%;
     width: 50%;
     left:50%;
-    top: 28.6%;
+    top: 40%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
     line-height: 5rem;
     vertical-align: center;
     text-align: center;
-    font-size: 4rem;
+    font-size: 2.2rem;
     font-family: "Arial Black";
 }
 #menu_box_7
@@ -614,9 +615,9 @@ a.href {
     padding:1%;
     margin-bottom: 1%;
     position: absolute;
-    height:14.3%;
+    height:20%;
     width: 50%;
-    top: 42.9%;
+    top: 60%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
@@ -632,10 +633,10 @@ a.href {
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:14.3%;
+    height:20%;
     width: 50%;
     left:50%;
-    top: 42.9%;
+    top: 60%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
@@ -652,9 +653,9 @@ a.href {
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:14.3%;
+    height:20%;
     width: 50%;
-    top: 57.2%;
+    top: 80%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
@@ -670,53 +671,17 @@ a.href {
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:14.3%;
+    height:20%;
     width: 50%;
     left:50%;
-    top: 57.2%;
+    top: 80%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
     line-height: 5rem;
     vertical-align: center;
     text-align: center;
-    font-size: 2rem;
-    font-family: "Arial Black";
-}
-#menu_box_11
-{
-    border: 1px solid rgb(0, 0, 0);
-    box-sizing: border-box;
-    padding:1%;
-    position: absolute;
-    height:14.3%;
-    width: 50%;
-    top: 71.5%;
-    background-color:rgb(90, 90, 90);
-    opacity: 1;
-    z-index:3;
-    line-height: 5rem;
-    vertical-align: center;
-    text-align: center;
-    font-size: 3rem;
-    font-family: "Arial Black";
-}
-#menu_box_12
-{
-    border: 1px solid rgb(0, 0, 0);
-    box-sizing: border-box;
-    position: absolute;
-    height:14.3%;
-    width: 50%;
-    left:50%;
-    top: 71.5%;
-    background-color:rgb(90, 90, 90);
-    opacity: 1;
-    z-index:3;
-    line-height: 3rem;
-    vertical-align: center;
-    text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
     font-family: "Arial Black";
 }
 #menu_box_13
@@ -725,35 +690,16 @@ a.href {
     box-sizing: border-box;
     padding:1%;
     position: absolute;
-    height:14.3%;
+    height:20%;
     width: 50%;
-    top: 85.8%;
+    top: 80%;
     background-color:rgb(90, 90, 90);
     opacity: 1;
     z-index:3;
     line-height: 5rem;
     vertical-align: center;
     text-align: center;
-    font-size: 2rem;
-    font-family: "Arial Black";
-}
-#menu_box_14
-{
-    border: 1px solid rgb(0, 0, 0);
-    box-sizing: border-box;
-    padding:1%;
-    position: absolute;
-    height:14.3%;
-    width: 50%;
-    left: 50%;
-    top: 85.8%;
-    background-color:rgb(90, 90, 90);
-    opacity: 1;
-    z-index:3;
-    line-height: 5rem;
-    vertical-align: center;
-    text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: "Arial Black";
 }
 #newDriver_topLeft
@@ -818,8 +764,18 @@ ol.newDriver{
     line-height: 150%;
 }
 p.newDriver{
-    font-size:300%;
+    font-size:225%;
     font-family: "Arial Black";
+}
+p.newDriver_h2{
+    font-size:175%;
+    font-family: "Arial Black";
+    margin:2%;
+}
+p.newDriver_h3{
+    font-size:150%;
+    font-family: "Arial Black";
+    margin:2%;
 }
 p.trafficSubTitle{
     font-size:200%;
