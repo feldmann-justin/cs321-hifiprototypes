@@ -78,6 +78,17 @@ a.ecButton{
 
 }
 
+#verification-success {
+
+    position: absolute;
+    top: 90%;
+    left: 62%;
+    font-family: "Arial Black";
+    font-size: 1.5vw;
+    color: white;
+
+}
+
 .cameraview {
 
     border: 5px solid black;
