@@ -20,16 +20,56 @@
                     </div>
             </div>
             <div id="modes">
-                <img src="image/normal.PNG" alt="Normal Mode" height="100%">
-                <img src="image/comfort.PNG" alt="Comfort Mode" height="100%">
-                <img src="image/rain.PNG" alt="Rain Mode" height="100%">
-                <img src="image/sport.PNG" alt="Sport Mode" height="100%">
-                <img src="image/custom.PNG" alt="Custom Mode" height="100%">
+                Select a driving mode to suit your driving needs. The preselected options have specific<br>settings for Steering weight, Throttle response, Ride comfort, and traction control.
+                <div id="mode1">Normal</div>
+                <div id="mode2">Comfort</div>
+                <div id="mode3">Sport</div>
+                <div id="mode4">Custom</div>
+                
             </div>
-            <div id="dr_modes">
-                <a>
+            <div id="dr_settings">
+                <b>Steering:</b>
+                <label class="radio-inline">
+                    <input type="radio" name="steering">Light
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="steering" checked>Normal
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="steering">Heavy
+                </label>
+                <br> <b>Throttle:</b>
+                <label class="radio-inline">
+                        <input type="radio" name="throttle">Light
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="throttle" checked>Normal
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="throttle">Heavy
+                    </label>
+                    <br> <b>Ride:</b>&nbsp;
+                    <label class="radio-inline">
+                        <input type="radio" name="ride">Soft
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="ride" >Normal
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="ride"checked>Firm
+                    </label>
+                    <br><br> <b>Traction<br>Control:</b>
+                    <label class="radio-inline">
+                            <input type="radio" name="traction" checked>Off
+                        </label>
+                        
+                        <label class="radio-inline">
+                            <input type="radio" name="traction">On
+                        </label>
+                        &nbsp;
+                <!--<a>
                     <img src="image/drivermodes.PNG" alt="Driving Modes" height="100%">
-                </a>
+                </a>-->
             </div>
         </div>
 
