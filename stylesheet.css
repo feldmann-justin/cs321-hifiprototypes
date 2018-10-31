@@ -906,6 +906,7 @@ p.trafficTitle{
     position: absolute;
     margin-top: 15%;
     margin-left: 15%;
+    font-size: 2rem;
 }
 #voice{
     position: absolute;
@@ -973,7 +974,7 @@ p.trafficTitle{
     margin-left: 20%;
 }
 .switch{
-    position: absolute;
+    position: relative;
     display: inline-block;
     width: 60px;
     height: 34px;
@@ -983,18 +984,30 @@ p.trafficTitle{
     width: 0;
     height: 0;
 }
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
 .slider:before{
     position: absolute;
     content: "";
-    height: 27px;
-    width: 27px;
-    left: 1px;
-    top: 4%;
-    bottom: 4px;
+    height: 34px;
+    width: 34px;
+    left: 0px;
+    top: 0%;
+    bottom: 0px;
     background-color: grey;
     -webkit-transition: .4s;
     transition: .4s;
 }
+
 input:checked + .slider{
     background-color: #2196F3;
 }
@@ -1002,10 +1015,17 @@ input:focus + .slider{
     box-shadow: 0 0 1px #2196F3;
 }
 input:checked + .slider:before{
-    -webkit-transform: translateX(20px);
-    -ms-transform: translateX(20px);
-    transform: translateX(20px);
+    -webkit-transform: translateX(27px);
+    -ms-transform: translateX(27px);
+    transform: translateX(27px);
 }
+.slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
 #switch1{
     position: absolute;
     margin-top: 30%;
