@@ -816,41 +816,52 @@ p.trafficTitle{
 #current{
     position: absolute;
     margin-top: 8.5%;
-    margin-left: 40%;
+    margin-left: 44%;
     font-size: 115%;
 }
 #dotw
 {
     position: absolute;
     margin-top: 20%;
-    margin-left: 16.5%;
+    margin-left: 14.5%;
     text-align: center;
-    word-spacing: 3rem;
-    font-size: 115%;
+    word-spacing: 5.5rem;
+    font-size: 125%;
 }
 #dotw_icons
 {
     position: absolute;
     margin-top: 24%;
-    margin-left: 14.5%;
+    margin-left: 12%;
     height: 50%;
-    word-spacing: .25rem;
+    word-spacing: 1.5rem;
 }
 #dotw_temps
 {
     position: absolute;
     font-size: 1.9rem;
     margin-top: 33%;
-    margin-left: 17%;
+    margin-left: 14.5%;
     text-align: center;
-    word-spacing: 2.75rem;
+    word-spacing: 5.6rem;
 }
 #diag{
     position: absolute;
-    margin-top: 10%;
-    margin-left: 20%;
+    margin-top: 5%;
+    margin-left: 15%;
     text-align: left;
-    font-size: 115%;
+    font-size: 200%;
+}
+#backDiag{
+    position: absolute;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 60%;
+    margin-left: 0%;
+    width: 100px;
+    height: 40px;
+    border: 3px solid black;
+    background: darkgrey;
 }
 #errorCodes{
     position: absolute;
@@ -868,13 +879,23 @@ p.trafficTitle{
 }
 #ec_main{
     position: absolute;
-    margin-top: 10%;
+    margin-top: 20%;
     margin-left: 25%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#ec_header{
+    position: absolute;
+    margin-top: 7.5%;
+    text-align: center;
+    margin-left: 30%;
+    font-size: 1.75rem;
 }
 #hvac{
     position: absolute;
     margin-top: 15%;
-    margin-left: 17.5%;
+    margin-left: 23%;
+    font-size: 200%;
 }
 #seats{
     position: absolute;
@@ -893,14 +914,58 @@ p.trafficTitle{
 }
 #modes{
     position: absolute;
-    margin-top: 15%;
+    text-align: center;
+    margin-top: 10%;
     margin-left: 22.5%;
+    font-size: 1.2rem;
 }
-#dr_modes{
+#mode1{
     position: absolute;
-    margin-top: 30%;
-    margin-left: 20%;
+    font-size: 2rem;
+    width: 100px;
+    padding: 10px;
+    border: 3px solid black;
+    margin-left: 0%;
+    margin-top: 5%;
+    background-color: lightgrey;
+}
+#mode2{
+    position: absolute;
+    font-size: 2rem;
+    width: 110px;
+    padding: 10px;
+    border: 3px solid black;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color: lightgrey;
+}
+#mode3{
+    position: absolute;
+    font-size: 2rem;
+    width: 100px;
+    padding: 10px;
+    border: 3px solid black;
+    margin-left: 50%;
+    margin-top: 5%;
+    background-color: lightgrey;
+}
+#mode4{
+    position: absolute;
+    font-size: 2rem;
+    width: 100px;
+    padding: 10px;
+    border: 3px solid black;
+    margin-left: 75%;
+    background-color: darkgrey;
+    margin-top: 5%;
+}
+#dr_settings{
+    position: absolute;
+    margin-top: 27.5%;
+    margin-left: 21%;
     word-spacing: 2.5rem;
+    font-size: 2rem;
+    text-align: left;
 }
 #language{
     position: absolute;
@@ -948,8 +1013,14 @@ input:checked + .slider:before{
 }
 #scanEC{
     position: absolute;
-    margin-top: 61%;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 57%;
     margin-left: 80%;
+    width: 200px;
+    height: 75px;
+    border: 3px solid black;
+    background: darkgrey;
 }
 #x1{
     position: absolute;
@@ -968,4 +1039,35 @@ input:checked + .slider:before{
     margin-left: 58%;
     height: 80%;
     width: 80%;
+}
+i {
+    border: solid black;
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+    padding: 8px;
+}
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    margin-left: -5.25%;
+    margin-bottom: 5%;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-left: -4.75%;
+    margin-bottom: -5%;
+}
+#seats{
+    position: absolute;
+    margin-left: -30%;
+    margin-top: 0%;
 }
