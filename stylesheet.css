@@ -43,7 +43,18 @@ a.href {
     padding: 15px;
     z-index:-1;
 }
-
+#warning
+{
+    height:90%;
+    width:90%;
+    position: absolute;
+    top:5%;
+    left:5%;
+    z-index:9;
+    background-color: white;
+    border:1px solid;
+    border-color: blue;
+}
 #phone-camera {
 
     background-image: url("image/car-dashcam.png");
@@ -802,6 +813,14 @@ p.newDriver_h3{
     font-size:150%;
     font-family: "Arial Black";
     margin:2%;
+}
+p.warning_p{
+    display:block;
+    margin:auto;
+    font-size:175%;
+    font-family: "Arial Black";
+    margin:2%;
+    text-align: center;
 }
 p.trafficSubTitle{
     color: rgb(0, 41, 129);
