@@ -934,9 +934,9 @@ p.trafficTitle{
 }
 #current{
     position: absolute;
-    margin-top: 8.5%;
-    margin-left: 44%;
-    font-size: 115%;
+    margin-top: 6%;
+    margin-left: 40%;
+    font-size: 200%;
 }
 #dotw
 {
@@ -999,8 +999,8 @@ p.trafficTitle{
 #ec_main{
     position: absolute;
     margin-top: 20%;
-    margin-left: 25%;
-    font-size: 1.5rem;
+    margin-left: 15%;
+    font-size: 200%;
     text-align: center;
 }
 #ec_header{
